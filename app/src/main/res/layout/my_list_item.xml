@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    android:backgroundTint="@color/teal_200"
+    android:elevation="6dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    app:cardMaxElevation="10dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="#FFF"
+        android:elevation="6dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="12">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="25dp"
+                android:layout_weight="4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3"
+                android:weightSum="8"
+                >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:text="textView" />
+                <TextView
+                    android:id="@+id/itemQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:text="Quantity:"/>
+                <TextView
+                    android:id="@+id/note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:text="Note:"/>
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="00/00/0000"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:weightSum="12"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:backgroundTint="#FFF"
+                    android:id="@+id/waste"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:src="@drawable/ic_waste_foreground"/>
+                <ImageButton
+                    android:backgroundTint="#FFF"
+                    android:id="@+id/share"
+                    android:layout_weight="4"
+                    android:src="@drawable/ic_share_foreground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:backgroundTint="#FFF"
+                    android:id="@+id/edit"
+                    android:layout_weight="4"
+                    android:src="@drawable/ic_edit_foreground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.cardview.widget.CardView>

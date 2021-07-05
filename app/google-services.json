@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "482882919580",
+    "firebase_url": "https://home-manager-297010.firebaseio.com",
+    "project_id": "home-manager-297010",
+    "storage_bucket": "home-manager-297010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482882919580:android:17450fb5ab49ecbb9da159",
+        "android_client_info": {
+          "package_name": "com.koti.dailymanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482882919580-d083cj1r3p3v53m0k4pvbkoh048r3716.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koti.dailymanager",
+            "certificate_hash": "5c35566e1d0428108b40eb5f5412a9808cc4d2d2"
+          }
+        },
+        {
+          "client_id": "482882919580-s2pi4sc926i6t4l9k3q8mra8h1n3d18a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA54L6V6F8NgIwbbifbuLhZolTbpzRzomg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482882919580-s2pi4sc926i6t4l9k3q8mra8h1n3d18a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

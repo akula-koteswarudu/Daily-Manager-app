@@ -1,0 +1,135 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyPhone">
+
+    <EditText
+        android:id="@+id/otpNumberOne"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:focusable="auto"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/optNumberTwo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/otpNumberOne"
+        app:layout_constraintStart_toEndOf="@+id/otpNumberOne"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="8dp" />
+
+    <EditText
+        android:id="@+id/otpNumberThree"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/optNumberTwo"
+        app:layout_constraintStart_toEndOf="@+id/optNumberTwo"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/otpNumberFour"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/otpNumberThree"
+        app:layout_constraintStart_toEndOf="@+id/otpNumberThree"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/otpNumberFive"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/otpNumberFour"
+        app:layout_constraintStart_toEndOf="@+id/otpNumberFour"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/optNumberSix"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintBaseline_toBaselineOf="@+id/otpNumberFive"
+        app:layout_constraintStart_toEndOf="@+id/otpNumberFive"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/verifyPhoneBTn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:text="Verify Otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otpNumberOne" />
+
+    <Button
+        android:id="@+id/resendOTP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Resend"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyPhoneBTn" />
+
+    <EditText
+        android:id="@+id/otpverfication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" OTP  Verification"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

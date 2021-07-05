@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_back">
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Register Here "
+        android:textColor="@color/teal_200"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"/>
+
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="289dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Create New Account"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/registerUsername"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/registerMail"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:hint="Gmail ID"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/registerPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:ems="10"
+        android:hint="PhoneNumber"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/registerProfession"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:ems="10"
+        android:hint="Profession"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="178dp"
+        android:layout_height="49dp"
+        android:padding="10dp"
+        android:text="REGISTER"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/loginHereBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="#00000000"
+        android:text=" Already Registered ? Login Here"
+        android:textColor="#FF9800"
+        />
+
+    <ProgressBar
+        android:id="@+id/registerProgress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</LinearLayout>
