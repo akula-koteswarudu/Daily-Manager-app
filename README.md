@@ -19,3 +19,11 @@ to remember firmly
 ## Additional features:
 - The user can send email and SMS using the send option available
 - If the user forgot password an email verification mechanism is also present
+
+## Team members
+
+- Akula koteswarudu
+- S.Sai.Sandeep
+- Ch.Rajesh
+- Nallani Rohan Rao
+
