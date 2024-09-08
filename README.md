@@ -1,29 +1,35 @@
-# daily-manager-app
-- Daily manager app is mainly designed for those people who are very busy
-scheduled and usually forget the things they want to buy and quantities of each
-item they want to buy. Our app gives utmost importance to customization of the
-items and categories and also it allows us to add images related to events inorder
-to remember firmly
+# Daily Manager App
 
-## Main features
+The Daily Manager App is designed to help busy individuals manage their daily tasks efficiently. It allows users to organize shopping lists, groceries, and other essential categories, with features for customization and reminders. Users can also add images to enhance memory association for events, making it easier to stay organized.
 
-- registration of new user using either making an account sending an otp to the phone number or by Gmail or even by using facebook login
-- authentication of the already registered users
-- user can any no of categories like grocery, shopping list etc of his/her choice.
-- And in each category the user can add any no of items
-- Each item added could also be added along with an image
-- Data about can be shared ,deleted or updated.
-- Trigger can have track of the todo list,also user can add meetings
-- user can also maintain a personal diary
+## Tech Stack
+- **Frontend:** Android (Java)
+- **Backend:** Firebase (for authentication, data storage, and real-time updates)
 
-## Additional features:
-- The user can send email and SMS using the send option available
-- If the user forgot password an email verification mechanism is also present
+## Key Features
+- **User Registration:** 
+  - Users can register by creating an account with OTP verification via phone number, Gmail, or Facebook login.
+- **User Authentication:** 
+  - Secure authentication for existing users through multiple login options.
+- **Customizable Categories:** 
+  - Users can create unlimited custom categories such as grocery lists, shopping lists, etc.
+  - In each category, users can add any number of items with descriptions and images to better remember the details.
+- **Manage Items:** 
+  - Add, update, delete, or share items in any category.
+  - Attach images to items for better memory association.
+- **To-do List Management:** 
+  - Track tasks and meetings using a to-do list and reminders for important events.
+- **Personal Diary:** 
+  - Users can maintain a personal diary for daily reflections or important notes.
 
-## Team members
+## Additional Features
+- **Email and SMS Support:** 
+  - Users can send emails and SMS directly from the app using the available options.
+- **Password Recovery:** 
+  - Forgot password? An email verification system is in place for easy password recovery.
 
-- Akula koteswarudu
-- S.Sai.Sandeep
-- Ch.Rajesh
+## Team Members
+- Akula Koteswarudu
+- S. Sai Sandeep
+- Ch. Rajesh
 - Nallani Rohan Rao
-
